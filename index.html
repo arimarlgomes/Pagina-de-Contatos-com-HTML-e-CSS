@@ -33,6 +33,8 @@
     </section>
     
     <main id="main_container">
+
+
         <section id="contacts_container">
             <h3>Entre em contato</h3>
             <p>Preencha o formulário ao lado e entraremos 
@@ -72,13 +74,107 @@
                     </div>
                 </a>
                 
+                <a href="https://api.whatsapp.com/send?phone=5532991464743" target="_blank" class="contact_card whatsapp">
+                    <div class="card-icon">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    
+                    <div class="card-infos">
+                        <p>Whatsapp</p>
+                        <span>(32) 991464743</span>
+                    </div>
+                </a>
+
             </div>
-            
+
+            <h4>
+                Nos siga nas redes sociais  
+            </h4>
+
+            <div id="social_media_icons">
+                <a href="#" class="icon-link twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="icon-link facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="icon-link linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="icon-link instagran">
+                    <i class="fa-brands fa-instagran"></i>
+                </a>
+
+            </div>            
+        </section>
+        
+        <section id="contact_form_container">
+            <h3>Contatar</h3>
+            <form method="post" id="contact_form">
+                <div class="input-group">
+                    <label for="name">Nome</label> 
+                    <input type="text" id="name" name="name" required>                   
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label> 
+                    <input type="text" id="email" name="email" required>                   
+                </div>
+
+                <div class="input-group">
+                    <label for="subject">Assunto</label> 
+                    <input type="text" id="subject" name="subject" required>                   
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Mensagem</label> 
+                    <textarea name="message" id="message" required rows="5"></textarea>                 
+                </div>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+
         </section>
     </main>
     
     <footer>
+        <img src="img/logo-light.png" alt="logo" class="footer-logo">
+        <div id="footer_link_content"></div>
+            <ul class="footer-list">
+                <li>
+                    <h3 class="list-title">blog</h3>
+                </li>
 
+                <li>
+                    <a href="#" class="footer-link">Tecnologia</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Programação</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Design</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3 class="list-title">Produtos</h3>
+                </li>
+                
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Cloud</a>
+                </li>
+            </ul>
     </footer>
     
 </body>
