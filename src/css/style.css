@@ -7,7 +7,7 @@
 }
 
 body {
-    background: radial-gradient(circle, var(--primary-color-1), var(--primary-color-2));
+    background: radial-gradient(circle, tomato, khaki);
 }
     
 .page-title {
@@ -20,20 +20,20 @@ body {
         font-size: 1rem;
         font-weight: 600;
         line-height: 1rem;
-        color: var(--secondary-color);
+        color: black;
     }
 
     h1 {
         font-size: 3rem;
         font-weight: 600;
         line-height: 3rem;
-        color: #ffffff;
+        color: rgb(255, 255, 255);
     }
         
     p {
         font-size: 1rem;
         font-weight: 400;
-        color: #e2e8f0;
+        color: #00FFFF;
         margin-top: 8px;
         max-width: 65%;
         text-align: center;

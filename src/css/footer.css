@@ -16,7 +16,7 @@ footer {
         .footer-list {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
             list-style: none;
 
             li {
