@@ -17,7 +17,7 @@ header {
         align-items: center; 
 
         .logo {
-            width: 150px;
+            width: 100px;
             height: auto;
         }
 
@@ -48,10 +48,10 @@ header {
             height: fit-content;
             padding: 12px 16px;
             border-radius: 8px;
-            background-color: #4f46e5;
+            background-color: var(--primary-color-1);
 
             &:hover {
-                background-color: #6366f1;
+                background-color: var(--primary-color-2);
                 transition: background-color 0.3s ease-in-out;
             }
         }
